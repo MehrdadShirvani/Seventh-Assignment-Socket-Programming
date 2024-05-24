@@ -26,6 +26,7 @@ public class ClientHandler implements Runnable {
     public void run() {
         try {
             while(true) {
+
                     String request = this.in.readUTF();
                     if (request.toLowerCase().trim().equals("exit")) {
                         this.in.close();
