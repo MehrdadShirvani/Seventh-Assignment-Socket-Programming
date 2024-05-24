@@ -22,6 +22,7 @@ public class Server {
     private static final List<String> fileNames =  Arrays.asList("a-man-without-love-ngelbert-Hmperdinck.txt","all-of-me-john-legend.txt","birds-imagine-dragons.txt","blinding-lights-the-weekend.txt", "dont-matter-to-me-drake.txt", "feeling-in-my-body-elvis.txt", "out-of-time-the-weekend.txt", "something-in-the-way-nirvana.txt", "why-you-wanna-trip-on-me-michael-jackson.txt", "you-put-a-spell-on-me-austin-giorgio.txt");
     private static final List<User> users = Arrays.asList(new User("user1", "green"), new User("user2","blue"), new User("user3","purple"), new User("user4", "yellow"));
 
+
     public static void main(String[] args) {
         ServerSocket listener = null;
 
